@@ -1,0 +1,2 @@
+# Biddy
+Bidding app
