@@ -36,9 +36,9 @@ class LoginFragment : Fragment() {
     }
 
     private fun getUserRequest() : UserAuthData {
-        val emailAddress = binding.txtEmail.text.toString()
+        val cnic = binding.txtEmail.text.toString()
         val password = binding.txtPassword.text.toString()
-        return UserAuthData(emailAddress,password)
+        return UserAuthData(cnic,password)
     }
 
 
